@@ -683,7 +683,7 @@
 		padding:25px 10px 25px 0;	
 	}
 	.kode_logo img{
-		width:200px;	
+		width:120px;	
 	}
 	.kode_caption{
 		display:none;	
@@ -1047,6 +1047,16 @@
 	.kf_touch_field button{
 		float:none;
 	}
+	    .kode_logo {
+        padding: 25px 0px;
+    }
+    .kode_logo {
+        width: 100%;
+        text-align: center;
+    }
+	    .kode_logo {
+        padding: 25px 10px 25px 0;
+    }
 	/*Team Detail Page*/
 	.kf_political_career:before{
 		display:none;	
@@ -1147,7 +1157,7 @@
 		text-align:center;	
 	}
 	.kode_logo{padding:25px 0px;}
-	.kode_logo img{width:80%;}
+	.kode_logo img{width:30%;}
 	.kode_favorite, .kode_search{
 		display:inline-block;	
 	}

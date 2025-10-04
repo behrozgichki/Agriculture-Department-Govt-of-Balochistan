@@ -250,7 +250,7 @@ header{
 .kode_menu ul li:before{
 	content:"";
 	position:absolute;
-	bottom:-22px;
+	bottom:-52px;
 	left:0px;
 	right:0px;
 	margin:auto;
