@@ -2579,7 +2579,7 @@ ul.countdown li p {
 	width:100%;
 	border-bottom:3px solid;
 	position:relative;
-	background-image:url(images/about-us-01.jpg);
+	background-color: #006401;
 	background-size:cover;
 	background-repeat:no-repeat;
 	background-position:center;
@@ -3169,7 +3169,8 @@ ul.countdown li p {
 		   WHY WE ARE WRAP CSS START
 	  ==============================================================
 */
-.kode_people_bg{	
+.kode_people_bg{
+	background: #f9f9f9;	
 }
 .kode_goal_wrap{
 	margin-bottom:15px;
