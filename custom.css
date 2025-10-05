@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Glyphicons Halflings';
+	src: url(../fonts/glyphicons-halflings-regular.eot);
+	src: url(../fonts/glyphicons-halflings-regulard41d.eot?#iefix) format('embedded-opentype'), url(../fonts/glyphicons-halflings-regular.woff2) format('woff2'), url(../fonts/glyphicons-halflings-regular.woff) format('woff'), url(../fonts/glyphicons-halflings-regular.ttf) format('truetype'), url(../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')
+}
 .kode_banner{
     height: 900px;
 }
@@ -11,4 +16,103 @@
 }
 .kode_people_bg{
     background: #f9f9f9;
+}
+
+
+ h2, h3 {
+    color: #006401;
+    font-weight: bold;
+    font-family: 'Glyphicons Halflings';
+  }
+.head-3{
+      font-family:'Glyphicons Halflings' ;
+color: #1e1e22;
+font-weight: bold;
+font-size: 30px;
+display:  inline-block;
+white-space: nowrap;
+}
+.head-2 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family:'Glyphicons Halflings' ;
+    color: #1e1e22;
+font-weight: 700;
+  }
+
+.head-1{
+     font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family:'Glyphicons Halflings' ;
+    color: #1e1e22;
+font-weight: 700;
+  }
+
+  p {
+    margin: 10px 0;
+  }
+
+  ul {
+    list-style-type: disc;
+    padding-left: 25px;
+    margin-bottom: 15px;
+  }
+
+  ul li {
+    margin-bottom: 6px;
+  }
+
+  .highlight {
+    font-weight: 600;
+    color: #444;
+  }
+
+  /* Table Styling */
+  .custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    font-size: 14px;
+  }
+
+  .custom-table thead {
+    background-color: #006401;
+    color: #ffffff;
+  }
+
+  .custom-table th, .custom-table td {
+    border: 1px solid #dcdcdc;
+    padding: 10px 15px;
+    text-align: left;
+  }
+
+  .custom-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  .custom-table tbody tr:hover {
+    background-color: #e6f3e6;
+    transition: background-color 0.3s ease;
+  }
+
+  .custom-table .total-row {
+    background-color: #e6f3e6;
+    font-weight: bold;
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    body {
+      padding: 10px;
+    }
+
+    .custom-table, .custom-table th, .custom-table td {
+      font-size: 12px;
+      padding: 8px;
+    }
+  }
+.grand-total{
+    
 }
